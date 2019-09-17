@@ -25,13 +25,12 @@ public class AddressBook extends BuddyInfo{
 		return buddyInfo.get(index);
 	}
 	
-	public static void main(String args[]) { 
-		System.out.println("Code working correctly");
+	public static void main(String args[]) { 		
+		BuddyInfo buddy = new BuddyInfo("Toronto", "Md Aiman Sharif", 123456);
+		AddressBook book = new AddressBook();
+		book.addBuddy(buddy);
+		book.removeBuddy(0);
 		
-//		BuddyInfo buddy = new BuddyInfo("Toronto", "Md Aiman Sharif", 123456);
-//		AddressBook book = new AddressBook();
-//		book.addBuddy(buddy);
-//		
 //		System.out.println(book.getBuddy(0).getAddress());
 //		System.out.println(book.getBuddy(0).getName());
 //		System.out.println(book.getBuddy(0).getPhoneNumber());
