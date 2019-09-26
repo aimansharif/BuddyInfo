@@ -31,6 +31,7 @@ public class AddressBook extends BuddyInfo{
 		book.addBuddy(buddy);
 		book.removeBuddy(0);
 		
+		//NEW LINE ADDED FOR GITHUB
 //		System.out.println(book.getBuddy(0).getAddress());
 //		System.out.println(book.getBuddy(0).getName());
 //		System.out.println(book.getBuddy(0).getPhoneNumber());
